@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="div">.</div>
+            <div>Coranu</div>
+        </div>
+        <input type="text" id="searchBar" placeholder="Search by title or category">
+        <div id="postsContainer">
+            <select id="postCategory">
+            <option value="Technology">Technology</option>
+            <option value="Science">Science</option>
+            <option value="Health">Health</option>
+            <option value="Others">Others</option>
+          </select>
+        </div>
+        <div id="searchResults"></div>
+        <div class="hiring">hiring</div>
+        <button type="button"><a href="login.html">LOGIN/REGISTER</a> </button>
+    </header>
+
+    <div id="postSection">
+        <h2>Add Post</h2>
+        <form id="postForm">
+          <input type="text" id="postTitle" placeholder="Post Title" required>
+          <textarea id="postContent" placeholder="Post Content" required></textarea>
+          <button type="submit">Add Post</button>
+        </form>
+      </div>
+    
+
+    <script type="module" src="firebase.js"></script>
+</body>
+</html>

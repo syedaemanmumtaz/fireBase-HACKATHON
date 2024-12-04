@@ -15,12 +15,13 @@ body
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .box
 {
-    
+
     padding: 20px 30px;
     width: 300px;
-    height: 400px;
+    max-height: 550px;
     backdrop-filter: blur(50px);
     border-radius: 5px;
     background: rgba(49, 49, 49, .2);
@@ -67,3 +68,21 @@ body
     cursor: pointer;
     font-size: 16px;
 }
+
+.links{
+    display:flex;
+    justify-content:space-around;
+    margin-top:0.9rem;
+    font-weight:bold;
+}
+ a,  a{
+    color:rgb(125,125,235);
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+#signUpButton a:hover, #signInButton a:hover {
+    text-decoration:underline;
+    color:blue;
+} 

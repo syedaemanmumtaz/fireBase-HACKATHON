@@ -3,29 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="style.css">
     <title>HACKATHON</title>
 </head>
 <body>
     <div class="box">
         <div class="form">
-            <h2>Login Form</h2>
-            <form>
+            <h2>SignUp Form</h2>
+            <form id="signuoForm">
                 <div class="inputbox">
-                    <input type="text" value="" id="username" required>
-                    <span>username</span>
+                    <input type="text" value="" id="fName" placeholder="name">
+                    <span>FIRST NAME</span>
                 </div>
                 <div class="inputbox">
-                    <input type="email" value="" id="email" required>
+                    <input type="text" value="" id="lName" placeholder="name">
+                    <span>last NAME</span>
+                </div>
+
+                <div class="inputbox">
+                    <input type="email" value="" id="signupEmail" placeholder="email">
                     <span>E-mail</span>
                 </div>
                 <div class="inputbox">
-                    <input type="text" value="" id="phone" required>
+                    <input type="password" value="" id="signupPassword" placeholder="password">
+                    <span>Password</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" value="" id="rphone" placeholder="phone" >
                     <span>Phone Number</span>
                 </div>
-                <input type="submit" value="submit" class="sub" id="submit">
+                <input type="submit" value="submit" class="sub" id="submitSignUp">
             </form>
+            <div class="links">
+                <p>Already Have Account ?</p>
+                <div id="signInButton "> <a href="login.html">Sign In</a></div>
+              </div>
         </div>
     </div>
+
+    <script type="module" src="firebase.js"></script>
 </body>
 </html>

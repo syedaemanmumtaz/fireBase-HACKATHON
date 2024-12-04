@@ -1,0 +1,72 @@
+.header {
+    background-color: #e8eaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+.div{
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px 0px 20px;
+    background-color: #1C5CFF;
+    color: #1C5CFF;
+    border-radius: 50%
+
+}
+button {
+    background-color: #1C5CFF;
+    width: 167px;
+    height: 41px;
+    top: 57px;
+    left: 1132px;
+    gap: 0px;
+    border-radius: 4.72px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hiring {
+    width: 38px;
+    height: 15px;
+    font-family: Inter;
+    font-size: 8.82px;
+    font-weight: 600;
+    line-height: 10.67px;
+    text-align: center;
+    border-radius: 12px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #1C5CFF;
+    color: white;
+}
+
+#postForm, #searchResults {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#postForm input, #postForm textarea, #searchBar {
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#searchResults div {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
